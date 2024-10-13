@@ -42,3 +42,34 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ![alt text](image.png)
 
 ![alt text](image-1.png)
+
+Here is a detailed description of each step in the provided diagram for creating a workflow using GitHub Actions, Docker Hub, and AWS EC2:
+
+1. Code and Build Process
+Developer Pushes Code to GitHub: The process begins when a developer writes code (likely a Node.js and MongoDB-based project) and pushes the changes to a GitHub repository.
+
+GitHub Actions Trigger: GitHub Actions is configured to automatically run a workflow when the repository is updated. This workflow could include steps to build the Docker image for the application.
+
+Build Docker Image: GitHub Actions initiates the process of building a Docker image for the project. A Dockerfile would be used to define the application's environment, libraries, and dependencies.
+
+2. Docker Hub Integration
+Push Docker Image to Docker Hub: After successfully building the Docker image, GitHub Actions pushes the built image to Docker Hub, a repository for storing Docker images. The Docker image will be used later for deployment.
+
+Trigger Post-Build Actions: After pushing the image to Docker Hub, a post-build action is triggered. This action could notify the self-hosted runner (on AWS EC2) to pull the image for deployment.
+
+3. Deployment on AWS EC2
+Configure Self-Hosted Runner on AWS EC2: A self-hosted runner is configured on an Amazon EC2 instance, which is responsible for handling deployments. The runner is integrated with GitHub Actions to listen for new builds or updates.
+
+Pull Docker Image from Docker Hub: The self-hosted runner pulls the newly built Docker image from Docker Hub.
+
+Run Docker Image as EC2 Container: The Docker image is executed within a Docker container on the EC2 instance, effectively running the application. The container could be orchestrated to handle scaling, load balancing, and other tasks.
+
+This entire process automates the build, push, and deployment workflow for a Node.js and MongoDB-based application using GitHub Actions, Docker Hub, and AWS EC2.
+
+Let me know if you'd like further details or adjustments for your earse.io diagram!
+
+
+
+
+
+
