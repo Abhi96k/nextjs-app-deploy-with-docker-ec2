@@ -74,3 +74,6 @@ Let me know if you'd like further details or adjustments for your earse.io diagr
 
 
 
+
+![image](https://github.com/user-attachments/assets/7c5d37ec-8e80-4c8f-ae38-6053d1206eea)
+
