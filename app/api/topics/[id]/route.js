@@ -14,5 +14,12 @@ export async function GET(request, { params }) {
   const { id } = params;
   await connectMongoDB();
   const topic = await Topic.findOne({ _id: id });
-  return NextResponse.json({ topic }, { status: 200 });
+  return NextResponse.json(
+    {
+      topic,
+    },
+    {
+      status: 200,
+    }
+  );
 }
