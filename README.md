@@ -70,6 +70,7 @@ Let me know if you'd like further details or adjustments for your earse.io diagr
 
 
 
+![image](https://github.com/user-attachments/assets/ac86dfac-f1c3-489e-9f0a-9f7974bf7213)
 
 
 
