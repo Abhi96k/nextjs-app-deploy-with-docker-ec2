@@ -16,6 +16,7 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -67,10 +68,5 @@ This entire process automates the build, push, and deployment workflow for a Nod
 Let me know if you'd like further details or adjustments for your earse.io diagram!
 
 ![alt text](1_YnpDhWiZ5TwDdLtpTBZHWA.png)
-
-![alt text](1_YnpDhWiZ5TwDdLtpTBZHWA-1.png)
-
-![alt text](image-2.png)
-![image](https://github.com/user-attachments/assets/ac86dfac-f1c3-489e-9f0a-9f7974bf7213)
 
 ![image](https://github.com/user-attachments/assets/7c5d37ec-8e80-4c8f-ae38-6053d1206eea)
